@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    font-family: 'Raleway', sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+
+    .introduce{
+        display: grid;
+        grid-template-columns: 1fr 600px;
+        box-shadow: inset 5em 1em gold;
+        align-items: center;
+
+        .introduce-text{
+            padding: 10px;
+
+            h1{
+                margin-bottom: 5px;
+            }
+            p{
+                line-height: 25px;
+                font-size: 16px;
+            }
+        }
+
+        
+    }
+
+    .line{
+        width: 1200px;
+        height: 1px;
+        background-color: rgb(37, 37, 37);
+        margin: 25px 0;
+    }
+
+    .history{
+        h2{
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .history-content{
+            gap: 40px;
+
+            .history-block01{
+                display: grid;
+                grid-template-columns: 500px 700px;
+                gap: 40px;
+                margin-bottom: 40px;
+
+                .history-text{
+                    width: 660px;
+                }
+            }
+
+            .history-block02{
+                display: grid;
+                grid-template-columns: 700px 500px;
+                gap: 40px;
+
+                .history-text{
+                    width: 660px;
+                }
+            }
+            .block02{
+                margin-bottom: 40px;
+            }
+        }
+
+        a{
+            display: block;
+            width: 200px;
+            height: 40px;
+            background-color: gold;
+            font-weight: 500;
+            color: white;
+            text-decoration: none;
+            padding: 11px 0 10px 44px;
+
+            &:hover{
+                background-color: rgb(214, 165, 5);
+                transition: 0.3s;
+            }
+        }
+    }
+}

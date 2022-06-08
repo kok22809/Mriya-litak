@@ -1,0 +1,183 @@
+@media (min-width:600) and (max-width:1023){
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    font-family: 'Raleway', sans-serif;
+    max-width: 1023px;
+    margin: 0 auto;
+  }
+  
+  .container .introduce {
+     box-shadow: inset 5em 1em gold;
+    align-items: center;
+  }
+  .container .introduce .introduce-text p {
+    line-height: 25px;
+    font-size: 16px;
+  }
+  
+  .container .line {
+    width: 100%;
+    height: 1px;
+    background-color: #252525;
+    margin: 25px 0;
+  }
+  
+  .container .history h2 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .container .history .history-content .history-block01 {
+    margin-bottom: 40px;
+  }
+  
+  .container .history .history-content .history-block01 .history-text {
+    width: 660px;
+  }
+  
+  .container .history .history-content .history-block02 .history-text {
+    width: 660px;
+  }
+  
+  .container .history .history-content .block02 {
+    margin-bottom: 40px;
+  }
+  
+  .container .history a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    background-color: gold;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: 11px 0 10px 44px;
+  }
+  
+  .container .history a:hover {
+    background-color: #d6a505;
+    transition: 0.3s;
+  }
+  /*# sourceMappingURL=style.css.map */
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container{
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+  }
+  img{
+    width: 600px;
+  }
+  .introduce{
+    box-shadow: inset 5em 1em gold;
+  }
+  .introduce-text{
+    padding: 10px;
+  }
+  h1{
+    margin-bottom: 5px;
+  }
+  p{
+    line-height: 25px;
+    font-size: 16px;
+  }
+  .line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(37, 37, 37);
+   margin: 25px 0;
+  
+  }
+  .history-block01{
+    margin-bottom: 40px;
+  }
+  img{
+    width: 500px;
+    height: 300px;
+  }
+  h2{
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .history-block02{
+    margin-bottom: 40px;
+  }
+  
+  a{
+    margin-top: 10px;
+    display: block;
+    width: 200px;
+    height: 40px;
+    background-color: gold;
+    padding-top: 5px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    line-height: 33px;
+  }
+  a:hover{
+    background-color: rgb(214, 165, 5);
+    transition: 0.3s;
+  }
+  .constructor{
+    line-height: 25px;
+   margin-top: 20px;
+  }
+  .dream{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .tolmachov{
+    width: 450px;
+    height: 400px;
+  }
+  .redline{
+    border-bottom: 5px solid red;
+    text-align: left;
+  }
+  .table-text{
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    gap: 10px;
+    margin-bottom: 20px;;
+  }
+  .table2{
+    border: 2px solid black;
+  }
+  .itresting_d{
+    width: 100%;
+    box-shadow: inset -3em 1em gold;
+    margin-top: 40px;
+  }
+  .itr1{
+    width: 595px;
+    margin-bottom: 10px;
+  }
+  .itr1_foto{
+    width: 300px;
+    height: 200px;
+  }
+  .itr2{
+    width: 100%;
+  }
+  .h611{
+    font-size: 20px;
+  }
+  .divh61{
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  img{
+      width: 100%;
+  }
+}
